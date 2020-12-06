@@ -1,13 +1,11 @@
 import React, { Component } from 'react';
-import BookList from "./components/BookList";
 
-export default class App extends Component {
+export default class BookList extends Component {
   render() {
     return (
       <div>
         <ui id="book-list">
-          <h1>Book List</h1>
-          <BookList />
+          <li>Book's name</li>
         </ui>
       </div>
     )
